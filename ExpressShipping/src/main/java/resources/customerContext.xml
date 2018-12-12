@@ -1,0 +1,29 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- customers instance -->
+	<bean id="c1" class="yuanqu.data.Customer">
+		<property name="name">
+			<value>Kronprinzenstraße 88, 40217 Düsseldorf</value>
+		</property>
+	</bean>
+	<bean id="c2" class="yuanqu.data.Customer">
+		<property name="name">
+			<value>Kaiserstraße 2, 40479 Düsseldorf</value>
+		</property>
+	</bean>
+	<bean id="c3" class="yuanqu.data.Customer">
+		<property name="name">
+			<value>Wildenbruchstraße 2, 40545 Düsseldorf</value>
+		</property>
+	</bean>
+	<bean id="c4" class="yuanqu.data.Customer">
+		<property name="name">
+			<value>Schlesische Straße 5, 40231 Düsseldorf</value>
+		</property>
+	</bean>
+</beans>
+

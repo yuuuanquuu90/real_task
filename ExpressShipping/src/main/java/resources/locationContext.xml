@@ -1,0 +1,45 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- fleets instance -->
+	<bean id="l1" class="yuanqu.data.Fleet">
+		<property name="name">
+			<value>Metrostrasse 12, 40235 Düsseldorf</value>
+		</property>
+	</bean>
+	<bean id="l2" class="yuanqu.data.Fleet">
+		<property name="name">
+			<value>Am Albertussee 1, 40549 Düsseldorf</value>
+		</property>
+	</bean>
+	<!-- stores instance -->
+	<bean id="l3" class="yuanqu.data.Store">
+		<property name="name">
+			<value>Schiessstraße 31, 40549 Düsseldorf</value>
+		</property>
+	</bean>
+	<bean id="l4" class="yuanqu.data.Store">
+		<property name="name">
+			<value>Friedrichstraße 152, 40217 Düsseldorf</value>
+		</property>
+	</bean>
+	<bean id="l5" class="yuanqu.data.Store">
+		<property name="name">
+			<value>Breslauer Str. 2, 41460 Neuss</value>
+		</property>
+	</bean>
+	<bean id="l6" class="yuanqu.data.Store">
+		<property name="name">
+			<value>Bataverstraße 93, 41462 Neuss</value>
+		</property>
+	</bean>
+	<bean id="l7" class="yuanqu.data.Store">
+		<property name="name">
+			<value>Am Sandbach 30, 40878 Ratingen</value>
+		</property>
+	</bean>
+</beans>
+
